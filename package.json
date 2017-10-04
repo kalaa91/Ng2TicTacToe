@@ -2,7 +2,7 @@
   "name": "Ng2TicTacToe",
   "version": "0.0.1",
   "author": "Kareem Alaa Eldin Sayed",
-  "homepage": "http://ionicframework.com/",
+  "homepage": "https://github.com/kalaa91/Ng2TicTacToe",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
