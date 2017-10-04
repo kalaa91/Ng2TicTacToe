@@ -1,0 +1,25 @@
+game-board {
+    height: 100%;
+    width: 100%;
+    div{
+        width: 100%;
+        height:100%;
+        display: inline-block;
+    }
+    ion-grid{
+        height:100%;
+        width:100%
+    }
+    ion-row{
+        height:100%;
+        width:100%;
+        border-width: 5px;
+        border-style: solid;
+    }
+
+    ion-col{
+        border-width: 2px;
+        border-style: solid;
+    }
+    }
+    

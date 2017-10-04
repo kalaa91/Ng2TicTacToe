@@ -1,0 +1,11 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            TicTacToe Game
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <game-board [gameWidth]="gameType" [isXTurn]="startTurn" [updateGameBoard]="cellToBeUpdated" (onGameReportArrayUpdated)="onGameReportArrayUpdated($event)" (onPlayerPlayedEvent)="onPlayerPlayed($event)"></game-board>
+</ion-content>

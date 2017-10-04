@@ -1,0 +1,189 @@
+<div [ngSwitch]="gameWidth">
+    <div *ngSwitchCase="3">
+        <ion-grid>
+            <ion-row>
+                <ion-col col-4>
+                    <board-cell [cellIndex]="0" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-4>
+                    <board-cell [cellIndex]="1" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-4>
+                    <board-cell [cellIndex]="2" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col col-4>
+                    <board-cell [cellIndex]="3" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-4>
+                    <board-cell [cellIndex]="4" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-4>
+                    <board-cell [cellIndex]="5" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col col-4>
+                    <board-cell [cellIndex]="6" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-4>
+                    <board-cell [cellIndex]="7" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-4>
+                    <board-cell [cellIndex]="8" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </div>
+    <div *ngSwitchCase="4">
+        <ion-grid>
+            <ion-row>
+                <ion-col col-3>
+                    <board-cell [cellIndex]="0" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-3>
+                    <board-cell [cellIndex]="1" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-3>
+                    <board-cell [cellIndex]="2" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-3>
+                    <board-cell [cellIndex]="3" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col col-3>
+                    <board-cell [cellIndex]="4" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-3>
+                    <board-cell [cellIndex]="5" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-3>
+                    <board-cell [cellIndex]="6" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-3>
+                    <board-cell [cellIndex]="7" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col col-3>
+                    <board-cell [cellIndex]="8" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-3>
+                    <board-cell [cellIndex]="9" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-3>
+                    <board-cell [cellIndex]="10" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-3>
+                    <board-cell [cellIndex]="11" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col col-3>
+                    <board-cell [cellIndex]="12" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-3>
+                    <board-cell [cellIndex]="13" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-3>
+                    <board-cell [cellIndex]="14" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-3>
+                    <board-cell [cellIndex]="15" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </div>
+    <div *ngSwitchCase="5">
+        <ion-grid>
+            <ion-row>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="0" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="1" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="2" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="3" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="4" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="5" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="6" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="7" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="8" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="9" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="10" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="11" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="12" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="13" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="14" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="15" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="16" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="17" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="18" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="19" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="20" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="21" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="22" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="23" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+                <ion-col col-2>
+                    <board-cell [cellIndex]="24" [isXTurn]="isXTurn" [updateCell]="cellToBeUpdated" (click)="setXO()" (onCellOccupied)="onCellOccupied($event)" (onPlayerPlayed)="onPlayerPlayed($event)"></board-cell>
+                </ion-col>
+            </ion-row>
+
+        </ion-grid>
+    </div>
+</div>

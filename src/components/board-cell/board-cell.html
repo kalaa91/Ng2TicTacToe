@@ -1,0 +1,10 @@
+<div [ngSwitch]="playerType" (click)="setXO()"  >
+    <div *ngSwitchCase="PlayerType.Empty">
+    </div>
+    <div *ngSwitchCase="PlayerType.O" >
+        <img src="../../assets/o.png">
+    </div>
+    <div *ngSwitchCase="PlayerType.X">
+        <img src="../../assets/x.png">
+    </div>
+</div>
