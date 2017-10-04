@@ -25511,3 +25511,37 @@ ion-navbar.toolbar {
   height: calc(46px + constant(safe-area-inset-top));
   min-height: calc(46px + constant(safe-area-inset-top));
 }
+
+board-cell div {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+game-board {
+  height: 100%;
+  width: 100%;
+}
+
+game-board div {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+game-board ion-grid {
+  height: 100%;
+  width: 100%;
+}
+
+game-board ion-row {
+  height: 100%;
+  width: 100%;
+  border-width: 5px;
+  border-style: solid;
+}
+
+game-board ion-col {
+  border-width: 2px;
+  border-style: solid;
+}
